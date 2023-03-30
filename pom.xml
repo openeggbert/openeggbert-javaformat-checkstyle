@@ -51,5 +51,16 @@
             </plugin>
         </plugins>
     </build>
-    
+
+    <distributionManagement>
+        <repository>
+            <id>nanoboot-releases-repository</id>
+            <url>https://maven.nanoboot.org/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>nanoboot-snapshots-repository</id>
+            <url>https://maven.nanoboot.org/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
