@@ -15,7 +15,7 @@ pipeline
     		        #!/bin/bash
     		        echo JOB_NAME=$JOB_NAME
 
-    		        mvn clean install
+    		        mvn clean install -X
     		        
     		        echo "Build of $JOB_NAME was successful"
     		        '''
