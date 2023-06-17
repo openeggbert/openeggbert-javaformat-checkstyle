@@ -91,9 +91,8 @@
                 </executions>
                 <configuration>
                     <gpgArguments>
-<!--                        <argument>- -pinentry-mode</argument>
-                        <argument>loopback</argument>-->
-                        <argument>--no-tty</argument>
+                        <argument>--pinentry-mode</argument>
+                        <argument>loopback</argument>
                     </gpgArguments>
                 </configuration>
             </plugin>
