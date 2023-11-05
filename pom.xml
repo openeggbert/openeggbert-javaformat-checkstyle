@@ -31,7 +31,8 @@
     <name>nanoboot-javaformat-checkstyle</name>
 
     <properties>
-        <javase.version>21</javase.version>    
+        <javase.version>21</javase.version>
+        <gpg.skip>true</gpg.skip>
     </properties>
     <build>
         <resources>
