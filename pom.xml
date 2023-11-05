@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- nanoboot-checks: Encapsulates Nanoboot Checkstyle XML configuration file.
- Copyright (C) 2018-2022 the original author or authors.
+ nanoboot-javaformat-checkstyle: Encapsulates Nanoboot Checkstyle XML configuration file.
+ Copyright (C) 2018-2023 the original author or authors.
 
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -24,14 +24,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.nanoboot.essential</groupId>
-    <artifactId>nanoboot-checks</artifactId>
+    <artifactId>nanoboot-javaformat-checkstyle</artifactId>
     <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>nanoboot-checks</name>
+    <name>nanoboot-javaformat-checkstyle</name>
 
     <properties>
-        <javase.version>19</javase.version>    
+        <javase.version>21</javase.version>    
     </properties>
     <build>
         <resources>

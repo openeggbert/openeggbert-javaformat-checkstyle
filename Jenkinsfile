@@ -82,5 +82,19 @@ pipeline
             }
         }
     }
+    post {
+        always {
+            script {
+                env.color = "${currentBuild.currentResult == 'SUCCESS' ? 'green' : 'red'}"
+           }
+            
+            echo 'Sending e-mail.'
+            sh "printenv | sort"
+            emailext body: "<b style=\"color:$COLOR\">${currentBuild.currentResult}</b> - ${env.JOB_NAME} (#${env.BUILD_NUMBER})<br> <ul style=\"margin-top:2px;padding-top:2px;padding-left:30px;\"><li>More info at: <a href=\"${env.BUILD_URL}\">${env.BUILD_URL}</a></li></ul>",
+                recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                subject: "Jenkins Build - ${currentBuild.currentResult} - $JOB_NAME (#$BUILD_NUMBER)"
+            
+        }
+    }
 }
 
