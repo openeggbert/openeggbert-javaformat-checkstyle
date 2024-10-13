@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- nanoboot-javaformat-checkstyle: Encapsulates Nanoboot Checkstyle XML configuration file.
+ robertvokac-javaformat-checkstyle: Encapsulates RobertVokac Checkstyle XML configuration file.
  Copyright (C) 2018-2024 the original author or authors.
 
  This program is free software: you can redistribute it and/or
@@ -24,12 +24,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.nanoboot.essential</groupId>
-    <artifactId>nanoboot-javaformat-checkstyle</artifactId>
+    <groupId>com.robertvokac.essential</groupId>
+    <artifactId>robertvokac-javaformat-checkstyle</artifactId>
     <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>nanoboot-javaformat-checkstyle</name>
+    <name>robertvokac-javaformat-checkstyle</name>
 
     <properties>
         <javase.version>21</javase.version>
@@ -104,38 +104,38 @@
     <repositories>
         <repository>
             <id>releases</id>
-            <name>nanoboot-releases-repository</name>
-            <url>https://maven.nanoboot.org/releases</url>
+            <name>robertvokac-releases-repository</name>
+            <url>https://maven.robertvokac.com/releases</url>
         </repository>
         <repository>
             <id>snapshots</id>
-            <name>nanoboot-snapshots-repository</name>
-            <url>https://maven.nanoboot.org/snapshots</url>
+            <name>robertvokac-snapshots-repository</name>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
             <id>releases</id>
-            <name>nanoboot-releases-repository</name>
-            <url>https://maven.nanoboot.org/releases</url>
+            <name>robertvokac-releases-repository</name>
+            <url>https://maven.robertvokac.com/releases</url>
         </pluginRepository>
         <pluginRepository>
             <id>snapshots</id>
-            <name>nanoboot-snapshots-repository</name>
-            <url>https://maven.nanoboot.org/snapshots</url>
+            <name>robertvokac-snapshots-repository</name>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
     
     <distributionManagement>
         <repository>
-            <id>nanoboot-releases-repository</id>
-            <url>https://maven.nanoboot.org/releases</url>
+            <id>robertvokac-releases-repository</id>
+            <url>https://maven.robertvokac.com/releases</url>
         </repository>
 
         <snapshotRepository>
-            <id>nanoboot-snapshots-repository</id>
-            <url>https://maven.nanoboot.org/snapshots</url>
+            <id>robertvokac-snapshots-repository</id>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>

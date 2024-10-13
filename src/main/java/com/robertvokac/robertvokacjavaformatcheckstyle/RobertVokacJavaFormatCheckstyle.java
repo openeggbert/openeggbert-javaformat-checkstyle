@@ -1,6 +1,6 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-// nanoboot-javaformat-checkstyle: Encapsulates Nanoboot Checkstyle XML configuration file.
+// robertvokac-javaformat-checkstyle: Encapsulates RobertVokac Checkstyle XML configuration file.
 // Copyright (C) 2018-2024 the original author or authors.
 //
 // This program is free software: you can redistribute it and/or
@@ -18,13 +18,13 @@
 // <https://www.gnu.org/licenses/> or write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ///////////////////////////////////////////////////////////////////////////////////////////////
-package org.nanoboot.nanobootjavaformatcheckstyle;
+package com.robertvokac.robertvokacjavaformatcheckstyle;
 
 /**
  * A dummy class
- * @author robertvokac@nanoboot.org
+ * @author robertvokac@robertvokac.org
  */
-public class NanobootJavaFormatCheckstyle {
+public class RobertVokacJavaFormatCheckstyle {
     public static void main(String[] args) {
         System.out.println("Hello. This is only a dummy class and does nothing.");
     }
