@@ -101,7 +101,7 @@
         </plugins>
     </build>
 
-    <repositories>
+    <repositories>        
         <repository>
             <id>robertvokac-releases-repository</id>
             <name>robertvokac-releases-repository</name>
@@ -118,12 +118,12 @@
         <pluginRepository>
             <id>robertvokac-releases-repository</id>
             <name>robertvokac-releases-repository</name>
-            <url>https://repo.openeggbert.com/releases</url>
+            <url>https://maven.robertvokac.com/releases</url>
         </pluginRepository>
         <pluginRepository>
             <id>robertvokac-snapshots-repository</id>
             <name>robertvokac-snapshots-repository</name>
-            <url>https://repo.openeggbert.com/snapshots</url>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
     
