@@ -110,11 +110,11 @@
         <repository>
             <id>robertvokac-snapshots-repository</id>
             <name>robertvokac-snapshots-repository</name>
-            <url>https://maven.nrobertvokac.com/snapshots</url>
+            <url>https://maven.robertvokac.com/snapshots</url>
         </repository>
     </repositories>
 
-    <pluginRepositories>
+    <pluginRepositories>        
         <pluginRepository>
             <id>robertvokac-releases-repository</id>
             <name>robertvokac-releases-repository</name>
