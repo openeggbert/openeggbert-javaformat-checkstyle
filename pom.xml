@@ -103,27 +103,27 @@
 
     <repositories>
         <repository>
-            <id>releases</id>
+            <id>robertvokac-releases-repository</id>
             <name>robertvokac-releases-repository</name>
             <url>https://maven.robertvokac.com/releases</url>
         </repository>
         <repository>
-            <id>snapshots</id>
+            <id>robertvokac-snapshots-repository</id>
             <name>robertvokac-snapshots-repository</name>
-            <url>https://maven.robertvokac.com/snapshots</url>
+            <url>https://maven.nrobertvokac.com/snapshots</url>
         </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
-            <id>releases</id>
+            <id>robertvokac-releases-repository</id>
             <name>robertvokac-releases-repository</name>
-            <url>https://maven.robertvokac.com/releases</url>
+            <url>https://repo.openeggbert.com/releases</url>
         </pluginRepository>
         <pluginRepository>
-            <id>snapshots</id>
+            <id>robertvokac-snapshots-repository</id>
             <name>robertvokac-snapshots-repository</name>
-            <url>https://maven.robertvokac.com/snapshots</url>
+            <url>https://repo.openeggbert.com/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
     
