@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- robertvokac-javaformat-checkstyle: Encapsulates RobertVokac Checkstyle XML configuration file.
- Copyright (C) 2018-2024 the original author or authors.
+ open-eggbert-javaformat-checkstyle: Encapsulates Open Eggbert Checkstyle XML configuration file.
+ Copyright (C) 2018-2025 the original author or authors.
 
  This program is free software: you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -24,12 +24,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.robertvokac.essential</groupId>
-    <artifactId>robertvokac-javaformat-checkstyle</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <groupId>com.openeggbert.essential</groupId>
+    <artifactId>open-eggbert-javaformat-checkstyle</artifactId>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>robertvokac-javaformat-checkstyle</name>
+    <name>open-eggbert-javaformat-checkstyle</name>
 
     <properties>
         <javase.version>21</javase.version>
@@ -45,7 +45,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
+                <version>3.13.0</version>
                 <configuration>
                     <source>${javase.version}</source>
                     <target>${javase.version}</target>
@@ -55,7 +55,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.2.1</version>
+                <version>3.3.0</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -68,7 +68,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.6.0</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -101,41 +101,43 @@
         </plugins>
     </build>
 
-    <repositories>        
+    <repositories>
         <repository>
-            <id>robertvokac-releases-repository</id>
-            <name>robertvokac-releases-repository</name>
-            <url>https://maven.robertvokac.com/releases</url>
+            <id>openeggbert-releases-repository</id>
+            <name>openeggbert-releases-repository</name>
+            <url>https://maven.openeggbert.com/releases</url>
         </repository>
         <repository>
-            <id>robertvokac-snapshots-repository</id>
-            <name>robertvokac-snapshots-repository</name>
-            <url>https://maven.robertvokac.com/snapshots</url>
+            <id>openeggbert-snapshots-repository</id>
+            <name>openeggbert-snapshots-repository</name>
+            <url>https://maven.openeggbert.com/snapshots</url>
         </repository>
+
     </repositories>
+
 
     <pluginRepositories>        
         <pluginRepository>
-            <id>robertvokac-releases-repository</id>
-            <name>robertvokac-releases-repository</name>
-            <url>https://maven.robertvokac.com/releases</url>
+            <id>openeggbert-releases-repository</id>
+            <name>openeggbert-releases-repository</name>
+            <url>https://maven.openeggbert.com/releases</url>
         </pluginRepository>
         <pluginRepository>
-            <id>robertvokac-snapshots-repository</id>
-            <name>robertvokac-snapshots-repository</name>
-            <url>https://maven.robertvokac.com/snapshots</url>
+            <id>openeggbert-snapshots-repository</id>
+            <name>openeggbert-snapshots-repository</name>
+            <url>https://maven.openeggbert.com/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
     
     <distributionManagement>
         <repository>
-            <id>robertvokac-releases-repository</id>
-            <url>https://maven.robertvokac.com/releases</url>
+            <id>openeggbert-releases-repository</id>
+            <url>https://maven.openeggbert.com/releases</url>
         </repository>
 
         <snapshotRepository>
-            <id>robertvokac-snapshots-repository</id>
-            <url>https://maven.robertvokac.com/snapshots</url>
+            <id>openeggbert-snapshots-repository</id>
+            <url>https://maven.openeggbert.com/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>

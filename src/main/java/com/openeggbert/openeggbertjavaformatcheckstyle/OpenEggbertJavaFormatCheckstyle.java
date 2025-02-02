@@ -1,7 +1,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-// robertvokac-javaformat-checkstyle: Encapsulates RobertVokac Checkstyle XML configuration file.
-// Copyright (C) 2018-2024 the original author or authors.
+// open-eggbert-javaformat-checkstyle: Encapsulates Open Eggbert Checkstyle XML configuration file.
+// Copyright (C) 2018-2025 the original author or authors.
 //
 // This program is free software: you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -18,13 +18,13 @@
 // <https://www.gnu.org/licenses/> or write to the Free Software
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ///////////////////////////////////////////////////////////////////////////////////////////////
-package com.robertvokac.robertvokacjavaformatcheckstyle;
+package com.openeggbert.openeggbertjavaformatcheckstyle;
 
 /**
  * A dummy class
  * @author robertvokac@robertvokac.org
  */
-public class RobertVokacJavaFormatCheckstyle {
+public class OpenEggbertJavaFormatCheckstyle {
     public static void main(String[] args) {
         System.out.println("Hello. This is only a dummy class and does nothing.");
     }

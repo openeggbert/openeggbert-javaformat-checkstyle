@@ -1,3 +1,3 @@
-# robertvokac-javaformat-checkstyle
+# open-eggbert-javaformat-checkstyle
 
-This is a Java library, which encapsulates RobertVokac Checkstyle XML configuration file.
+This is a Java library, which encapsulates Open Eggbert Checkstyle XML configuration file.
