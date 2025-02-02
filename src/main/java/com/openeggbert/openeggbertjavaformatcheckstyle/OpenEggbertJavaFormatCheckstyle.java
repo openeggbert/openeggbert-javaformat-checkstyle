@@ -1,6 +1,6 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-// openeggbert-javaformat-checkstyle: Encapsulates Open Eggbert Checkstyle XML configuration file.
+// openeggbert-javaformat-checkstyle: Encapsulates OpenEggbert Checkstyle XML configuration file.
 // Copyright (C) 2018-2025 the original author or authors.
 //
 // This program is free software: you can redistribute it and/or
